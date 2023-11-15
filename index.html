@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <div class="calculator">
+    <form onsubmit="return false;" autocomplete="off">
+        <div class="contenedor">
+            <input type="text" id="number1">
+            <input type="text" id="number2">
+            <input type="text" id="result" readonly>
+           
+        </div>
+        
+        <div class="contenedor">
+
+            <button class="btnSuma" onclick="suma()">+</button>
+            <button class="btnResta"onclick="resta()">-</button>
+            <button class="btnMultiplicacion"onclick="multiplicacion()">*</button>
+            <button class="btnRaiz"onclick="raiz()">√</button>
+        
+        </div>
+        
+    
+                
+        
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
